@@ -36,6 +36,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
     - name: Test with pytest
       run: |
+        cd practica-gps-ci-master
         coverage run test.py
         coverage report -m
 
